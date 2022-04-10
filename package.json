@@ -82,14 +82,14 @@
     "jsdom": "^17.0.0",
     "mini-css-extract-plugin": "^1.6.2",
     "mocha": "^9.1.1",
-    "react-styleguidist": "^11.1.7",
+    "react-styleguidist": "^5.5.10",
     "request": "^2.88.2",
     "style-loader": "^2.0.0",
     "url-loader": "^4.1.1",
     "webpack": "^5.51.1",
     "webpack-cli": "^4.8.0",
     "webpack-dev-middleware": "^5.0.0",
-    "webpack-dev-server": "^3.11.2",
+    "webpack-dev-server": "^4.8.1",
     "webpack-hot-middleware": "^2.25.0",
     "webpack-node-externals": "^3.0.0"
   }
