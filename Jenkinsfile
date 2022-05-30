@@ -29,9 +29,9 @@ pipeline {
 
         stage('Git Clone') {
             steps {
+                git url: 'https://github.com/lmaeda/myGraphQLApp.git'
                 //git url: 'https://github.com/lmaeda/java-goofs.git'
                 //git url: 'https://github.com/lmaeda/BingAds-Java-SDK.git'
-                git url: 'https://github.com/lmaeda/myGraphQLApp.git'
 
                 sh 'ls -la'
             }
