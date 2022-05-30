@@ -4,7 +4,7 @@ pipeline {
     // Install the Jenkins tools you need for your project / environment
     tools {
         //maven 'maven' // Refers to a global tool configuration for Maven called 'maven-3.8.3'
-        nodejs 'nodejs' // Refers to a global tool configuration for node called 'NodeJS 18.1.0'
+        nodejs 'node' // Refers to a global tool configuration for node called 'NodeJS 18.1.0'
     }
 
     // Pull your Snyk token from a Jenkins encrypted credential
