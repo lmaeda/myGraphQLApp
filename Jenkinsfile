@@ -68,7 +68,7 @@ pipeline {
               //sh 'mvn -e -X package'
               //sh './mvnw test -Dsnyk.skip'
               sh 'npm install -g npm'
-              sh 'npm install .'
+              //sh 'npm install .'
             }
         }
 
