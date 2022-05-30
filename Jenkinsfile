@@ -41,6 +41,7 @@ pipeline {
             steps {
                 //sh 'java -version'
                 //sh 'mvn -v'
+                sh 'node -v'
                 sh 'npm -v'
             }
         }
@@ -66,7 +67,8 @@ pipeline {
               //sh 'cd ./todolist-core/'
               //sh 'mvn -e -X package'
               //sh './mvnw test -Dsnyk.skip'
-              sh 'npm install'
+              sh 'npm install -g npm'
+              sh 'npm install .'
             }
         }
 
